@@ -27,4 +27,4 @@ __________________________________________
 
 5) animate2D(N,M,R)
 	Examples:
-		animate(32,300,0) **from earlier
+		animate2D(32,300,0) **from earlier
