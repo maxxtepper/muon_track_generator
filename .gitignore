@@ -6,3 +6,5 @@ main
 */*.root
 muon_gen_v2
 2D_muon_plot
+*.so
+*.pcm
