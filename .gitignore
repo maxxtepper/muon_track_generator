@@ -3,3 +3,6 @@ main
 *.swo
 *.o
 *.root
+*/*.root
+muon_gen_v2
+2D_muon_plot
