@@ -1,0 +1,30 @@
+Instructions:
+__________________________________________
+------------------------------------------
+
+1) make
+
+2) ./muon_gen_v2 base mag N M R
+	-base = base value of time step
+	-mag  = (-) magnitude of time step
+	-N    = number of particles
+	-M    = number of time steps
+	-R    = run id number (which run it is;
+			 		existing runs with the same R
+			 		value will be overwritten)
+
+	Example:
+		./muon_gen_v2 25 14 32 300 0
+
+		time step = 25 X 10^(-14) seconds
+		32 particles
+		300 time steps (300 data points)
+		0 is the run id
+
+3) root
+
+4) .L animate2D.C++
+
+5) animate2D(N,M,R)
+	Examples:
+		animate(32,300,0) **from earlier
