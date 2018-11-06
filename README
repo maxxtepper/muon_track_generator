@@ -15,6 +15,7 @@ __________________________________________
 
 	Example:
 		./muon_gen_v2 25 14 32 300 0
+		./muon_gen_v2 25 11 32 300 1
 
 		time step = 25 X 10^(-14) seconds
 		32 particles
@@ -28,3 +29,7 @@ __________________________________________
 5) animate2D(N,M,R)
 	Examples:
 		animate2D(32,300,0) **from earlier
+		animate2D(32,300,1) **from earlier
+
+
+**more tunable paremeters to come...
